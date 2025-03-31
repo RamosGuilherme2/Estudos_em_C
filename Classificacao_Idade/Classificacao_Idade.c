@@ -62,5 +62,5 @@ int main() {
     }
     while (strcmp(continuar, "n") != 0);
     printf("\nPrograma encerrado. Obrigado por usar!\n");
-    return 0;
+    return 0; //deu tudo certo!!
 }
