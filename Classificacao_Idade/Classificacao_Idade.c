@@ -1,7 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <ctype.h>
+#include <stdio.h>   // Biblioteca padrão para entrada e saída. Permite usar funções como printf(), scanf(), getchar(), etc.
+#include <stdlib.h>  // Biblioteca padrão para gerenciamento de memória, conversões e outras utilidades. Inclui funções como malloc(), free(), atoi(), rand(), etc.
+#include <string.h>  // Biblioteca para manipulação de strings. Permite usar funções como strlen(), strcpy(), strcmp(), strcat(), etc.
+#include <ctype.h>   // Biblioteca para manipulação de caracteres. Inclui funções como isalpha(), isdigit(), toupper(), tolower(), etc.
 
 int main() {
     char entrada[20];
@@ -12,7 +12,7 @@ int main() {
     do {
         do {
             printf("\nPor favor, informe a idade da pessoa: ");
-            scanf("%s", entrada);
+            scanf("%19s", entrada);
             valida = 1;
 
             for (int i = 0; i < strlen(entrada); i++) {
